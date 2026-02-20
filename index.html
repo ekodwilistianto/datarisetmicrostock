@@ -127,6 +127,20 @@
             transform: translateY(-2px);
         }
 
+        .btn-video {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.3) 0%, rgba(220, 38, 38, 0.2) 100%);
+            border: 1px solid rgba(239, 68, 68, 0.5);
+            color: var(--text-primary) !important;
+            text-decoration: none !important;
+            transition: all 0.3s ease;
+        }
+
+        .btn-video:hover {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.5) 0%, rgba(220, 38, 38, 0.4) 100%);
+            border-color: rgba(239, 68, 68, 0.8);
+            transform: translateY(-2px);
+        }
+
         @keyframes shimmer {
             0%, 100% { background-position: 0% 0; }
             50% { background-position: 100% 0; }
@@ -571,6 +585,17 @@
                     <div class="font-display text-xl font-bold text-gold-400">LIFETIME</div>
                     <div class="text-xs text-royal-300 mt-1">Update Data</div>
                 </div>
+            </div>
+
+            <!-- Video Explanation Button -->
+            <div class="reveal mt-8 text-center">
+                <a href="https://youtube.com/shorts/IIRArGMieEk?feature=share" target="_blank" class="btn-video inline-flex items-center gap-2 py-3 px-6 rounded-xl font-bold text-sm">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    Video Penjelasan Data Riset
+                </a>
             </div>
         </div>
     </section>
